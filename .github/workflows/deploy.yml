@@ -28,8 +28,8 @@ jobs:
   uses: cloudflare/pages-action@v1
   with:
     apiToken: ${{ secrets.CF_API_TOKEN }}
-    accountId: ${{ secrets.CF_ACCOUNT_ID }}   # ✅ ADD THIS
-    projectName: your-pages-project-name
+    accountId: ${{ secrets.CF_ACCOUNT_ID }}   
+    projectName: newOne
     directory: frontend/dist
 
   # ================= BACKEND =================
