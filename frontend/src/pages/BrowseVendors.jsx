@@ -14,7 +14,7 @@ const BrowseVendors = () => {
         setVendors(data);
         setLoading(false);
       } catch (error) {
-        console.error("Failed to fetch vendors", error);
+        console.error("Failed to fetch vendor", error);
         setLoading(false);
       }
     };
