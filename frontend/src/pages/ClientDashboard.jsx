@@ -148,7 +148,7 @@ const ClientDashboard = () => {
               required
               type="number"
               placeholder="Amount"
-              className="w-full p-3 border mb-3"
+              className="w-full p-3 border mb-4"
               value={newContract.amount}
               onChange={(e) =>
                 setNewContract({ ...newContract, amount: e.target.value })
